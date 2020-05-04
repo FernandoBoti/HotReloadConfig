@@ -13,6 +13,7 @@ namespace HotReloadConfig
 
 #if DEBUG
 
+
             HotReloader.Current.Run(this);
 
 #endif
