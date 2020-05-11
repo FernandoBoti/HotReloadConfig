@@ -13,7 +13,7 @@
            VerticalOptions="CenterAndExpand" />
 
         <Entry Text="Digite seu nome"></Entry>
-        <Entry Text="Fernando Soares da Silva"></Entry>
+        <Entry Text="Boti"></Entry>
     </StackLayout>
 
 </ContentPage>
