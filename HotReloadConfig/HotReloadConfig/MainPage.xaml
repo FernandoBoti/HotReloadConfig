@@ -8,12 +8,14 @@
 
     <StackLayout>
         <!-- Place new controls here -->
-        <Label Text="" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
 
-        <Entry Text="Digite seu nome"></Entry>
-        <Entry Text="Boti"></Entry>
+        <Entry></Entry>
+
+        <Entry></Entry>
+
+        <Button></Button>
+
+        
     </StackLayout>
 
 </ContentPage>

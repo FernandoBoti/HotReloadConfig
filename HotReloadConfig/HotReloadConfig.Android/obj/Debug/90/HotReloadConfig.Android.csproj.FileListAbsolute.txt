@@ -498,3 +498,7 @@ C:\FERNANDO\Testes diversos\HotReloadConfig\HotReloadConfig\HotReloadConfig\HotR
 C:\FERNANDO\Testes diversos\HotReloadConfig\HotReloadConfig\HotReloadConfig\HotReloadConfig.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 C:\FERNANDO\Testes diversos\HotReloadConfig\HotReloadConfig\HotReloadConfig\HotReloadConfig.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 C:\FERNANDO\Testes diversos\HotReloadConfig\HotReloadConfig\HotReloadConfig\HotReloadConfig.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
+C:\FERNANDO\Testes diversos\HotReloadConfig\HotReloadConfig\HotReloadConfig\HotReloadConfig.Android\obj\Debug\90\res\drawable\mail.png
+C:\FERNANDO\Testes diversos\HotReloadConfig\HotReloadConfig\HotReloadConfig\HotReloadConfig.Android\obj\Debug\90\res\drawable\background.jpg
+C:\FERNANDO\Testes diversos\HotReloadConfig\HotReloadConfig\HotReloadConfig\HotReloadConfig.Android\obj\Debug\90\res\drawable\senha.png
+C:\FERNANDO\Testes diversos\HotReloadConfig\HotReloadConfig\HotReloadConfig\HotReloadConfig.Android\obj\Debug\90\res\drawable\background2.jpg

@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="HotReloadConfig.View.telaLogin"
+             >
+
+
+    <!--Trecho que define estilo dos objetos xaml-->
+    <ContentPage.Resources>
+
+        <ResourceDictionary>
+
+            <!--stilo implicito, ou seja, será aplicado apenas para o objeto que o referenciá-lo-->
+            <Style x:Key="LabelStyle" TargetType="Label">
+
+                <Setter Property="TextColor" Value="Black" ></Setter>
+                <Setter Property="VerticalOptions" Value="Center" ></Setter>
+                <Setter Property="HorizontalOptions" Value="Center" ></Setter>
+
+            </Style>
+
+            <!--stilo explicito, ou seja, será aplicado para todos os objetos que sejam do TargetType="Label"  -->
+            <Style TargetType="Label">
+
+                <Setter Property="TextColor" Value="LightPink" ></Setter>
+                <Setter Property="VerticalOptions" Value="Center" ></Setter>
+                <Setter Property="HorizontalOptions" Value="Center" ></Setter>
+
+            </Style>
+
+            <Style TargetType="Entry">
+
+
+                <Setter Property="TextColor" Value="Gray" ></Setter>
+                <Setter Property="BackgroundColor" Value="Transparent" ></Setter>
+                <Setter Property="PlaceholderColor" Value="Gray" ></Setter>
+
+                
+
+
+            </Style>
+
+            <Style TargetType="Button">
+
+                <Setter Property="HorizontalOptions" Value="Center" ></Setter>
+                <Setter Property="WidthRequest" Value="300" ></Setter>
+
+            </Style>
+
+            <!--<Style x:Key="link" TargetType="Button">
+                
+                <Setter Property="HorizontalOptions" Value="Center" ></Setter>
+                <Setter Property="WidthRequest" Value="300" ></Setter>
+             
+                <Setter Property="BackgroundColor" Value="Transparent"></Setter>
+
+            </Style>-->
+
+            <!--
+                IMPORTANTE: Existe a possibilidade de criar o "Global Style", 
+                deixando centralizando, em uma única página xaml, todo o stilo da aplicação.
+                
+                Item para ser praticado posteriormente. 
+                Para implementação deve ser consultada a aula 75 do curso da Udemy.
+            
+            -->
+
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+
+    <ContentPage.Content>
+
+        <!--StackLayout => empilha os objetos-->
+        
+        <!--
+            AbsoluteLayout => possibilita definir as posições dos objetos na tela. 
+                                Definindo a distância da margem esquerda, do topo, a altura e a largura. 
+        -->
+
+
+        <AbsoluteLayout BackgroundColor="CadetBlue">
+
+            <Image Source="background2.jpg" AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" Aspect="AspectFill"></Image>
+            <StackLayout>
+            <!--Cria um grid de 2 colunas e 2 linhas-->
+                <Grid >
+                
+                <!--Define a quantidade de colunas do grid-->
+                <Grid.ColumnDefinitions>
+                    
+                    <!--Coluna 1-->
+                    <ColumnDefinition Width="30" ></ColumnDefinition>
+                    <!--Coluna 2-->
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+
+                </Grid.ColumnDefinitions>
+                
+                <!--Define a quantidade de linhas do grid-->
+                <Grid.RowDefinitions>
+                    <!--Linha 1-->
+                    <RowDefinition ></RowDefinition>
+                    <!--Linha 2-->
+                    <RowDefinition ></RowDefinition>
+
+                </Grid.RowDefinitions>
+                
+                <!--Adiciona os objetos nas posições do grid-->
+                <Image Source="mail.png" Grid.Column="0" Grid.Row="0" ></Image>
+                <Entry Placeholder="Usuário" Grid.Column="1" Grid.Row="0"></Entry>
+
+                <Image Source="senha.png" Grid.Column="0" Grid.Row="1" ></Image>
+                <Entry Placeholder="Senha" IsPassword="True" Grid.Column="1" Grid.Row="1"></Entry>
+
+
+                
+            </Grid>
+
+
+                <Button Text="Entrar" ></Button>
+                <Button Text="Entrar com Gmail"   ></Button>
+
+
+                <Button Text="Esqueceu sua senha?" ></Button>
+
+            
+
+            </StackLayout>
+        </AbsoluteLayout>
+
+    </ContentPage.Content>
+
+</ContentPage>

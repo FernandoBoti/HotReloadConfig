@@ -11,3 +11,4 @@ C:\FERNANDO\Testes diversos\HotReloadConfig\HotReloadConfig\HotReloadConfig\HotR
 C:\FERNANDO\Testes diversos\HotReloadConfig\HotReloadConfig\HotReloadConfig\HotReloadConfig\obj\Debug\netstandard2.0\HotReloadConfig.dll
 C:\FERNANDO\Testes diversos\HotReloadConfig\HotReloadConfig\HotReloadConfig\HotReloadConfig\obj\Debug\netstandard2.0\ref\HotReloadConfig.dll
 C:\FERNANDO\Testes diversos\HotReloadConfig\HotReloadConfig\HotReloadConfig\HotReloadConfig\obj\Debug\netstandard2.0\HotReloadConfig.pdb
+C:\FERNANDO\Testes diversos\HotReloadConfig\HotReloadConfig\HotReloadConfig\HotReloadConfig\obj\Debug\netstandard2.0\View\telaLogin.xaml.g.cs

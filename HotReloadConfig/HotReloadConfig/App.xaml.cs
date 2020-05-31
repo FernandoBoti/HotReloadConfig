@@ -1,4 +1,5 @@
-﻿using System;
+﻿using HotReloadConfig.View;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -18,7 +19,7 @@ namespace HotReloadConfig
 
 #endif
 
-            MainPage = new MainPage();
+            MainPage = new telaLogin();
         }
 
         protected override void OnStart()
