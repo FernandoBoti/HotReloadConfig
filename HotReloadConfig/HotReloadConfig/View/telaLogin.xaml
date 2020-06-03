@@ -34,11 +34,12 @@
             <Style TargetType="Entry">
 
 
-                <Setter Property="TextColor" Value="Gray" ></Setter>
-                <Setter Property="BackgroundColor" Value="Transparent" ></Setter>
-                <Setter Property="PlaceholderColor" Value="Gray" ></Setter>
-
+                <Setter Property="TextColor" Value="White" ></Setter>
+                <!--<Setter Property="BackgroundColor" Value="Transparent" ></Setter>-->
+                <Setter Property="PlaceholderColor" Value="White" ></Setter>
+                <Setter Property="FontSize" Value="16" ></Setter>
                 
+
 
 
             </Style>
@@ -46,7 +47,14 @@
             <Style TargetType="Button">
 
                 <Setter Property="HorizontalOptions" Value="Center" ></Setter>
-                <Setter Property="WidthRequest" Value="300" ></Setter>
+                <Setter Property="WidthRequest" Value="250" ></Setter>
+                <Setter Property="HeightRequest" Value="40" ></Setter>
+                <Setter Property="CornerRadius" Value="5" ></Setter>
+                <Setter Property="FontSize" Value="10" ></Setter>
+                <Setter Property="TextColor" Value="White" ></Setter>
+              
+                
+                
 
             </Style>
 
@@ -84,51 +92,59 @@
 
         <AbsoluteLayout BackgroundColor="CadetBlue">
 
-            <Image Source="background2.jpg" AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" Aspect="AspectFill"></Image>
-            <StackLayout>
-            <!--Cria um grid de 2 colunas e 2 linhas-->
-                <Grid >
-                
-                <!--Define a quantidade de colunas do grid-->
-                <Grid.ColumnDefinitions>
-                    
-                    <!--Coluna 1-->
-                    <ColumnDefinition Width="30" ></ColumnDefinition>
-                    <!--Coluna 2-->
-                    <ColumnDefinition Width="*"></ColumnDefinition>
+            <Image Source="wallpaper.jpg" AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" Aspect="AspectFill"></Image>
 
-                </Grid.ColumnDefinitions>
-                
-                <!--Define a quantidade de linhas do grid-->
-                <Grid.RowDefinitions>
-                    <!--Linha 1-->
-                    <RowDefinition ></RowDefinition>
-                    <!--Linha 2-->
-                    <RowDefinition ></RowDefinition>
+            <StackLayout >
 
-                </Grid.RowDefinitions>
-                
-                <!--Adiciona os objetos nas posições do grid-->
-                <Image Source="mail.png" Grid.Column="0" Grid.Row="0" ></Image>
-                <Entry Placeholder="Usuário" Grid.Column="1" Grid.Row="0"></Entry>
-
-                <Image Source="senha.png" Grid.Column="0" Grid.Row="1" ></Image>
-                <Entry Placeholder="Senha" IsPassword="True" Grid.Column="1" Grid.Row="1"></Entry>
+                <Image Source="person1.png" HeightRequest="150"  ></Image>
 
 
-                
-            </Grid>
+                <!--Cria um grid de 2 colunas e 2 linhas-->
+                <!--<object Margin="left,top,right,bottom"/>-->
+                <Grid Margin="50,100,50,0" >
+
+                    <!--Define a quantidade de colunas do grid-->
+                    <Grid.ColumnDefinitions>
+
+                        <!--Coluna 1-->
+                        <ColumnDefinition Width="30"></ColumnDefinition>
+                        <!--Coluna 2-->
+                        <ColumnDefinition Width="200"></ColumnDefinition>
+
+                    </Grid.ColumnDefinitions>
+
+                    <!--Define a quantidade de linhas do grid-->
+                    <Grid.RowDefinitions>
+                        <!--Linha 1-->
+                        <RowDefinition   ></RowDefinition>
+                        <!--Linha 2-->
+                        <RowDefinition ></RowDefinition>
+
+                    </Grid.RowDefinitions>
+
+                    <!--Adiciona os objetos nas posições do grid-->
+                    <Image Source="user.png" Grid.Column="0" Grid.Row="0" ></Image>
+                    <Entry Placeholder="Usuário" Grid.Column="1" Grid.Row="0"></Entry>
+
+                    <Image Source="password.png" Grid.Column="0" Grid.Row="1" ></Image>
+                    <Entry Placeholder="******" IsPassword="True" Grid.Column="1" Grid.Row="1"></Entry>
 
 
-                <Button Text="Entrar" ></Button>
-                <Button Text="Entrar com Gmail"   ></Button>
+
+                </Grid>
 
 
-                <Button Text="Esqueceu sua senha?" ></Button>
+                <Button Text="Entrar" BackgroundColor="PaleVioletRed" ></Button>
 
-            
+
+                <Button Text="Esqueceu sua senha?" BackgroundColor="Transparent" ></Button>
+
+
+
 
             </StackLayout>
+
+
         </AbsoluteLayout>
 
     </ContentPage.Content>
