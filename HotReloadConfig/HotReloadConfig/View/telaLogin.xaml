@@ -5,6 +5,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="HotReloadConfig.View.telaLogin"
+             Title="Login"
              >
 
 
@@ -36,10 +37,14 @@
 
 
                 <Setter Property="TextColor" Value="White" ></Setter>
-                <!--<Setter Property="BackgroundColor" Value="Transparent" ></Setter>-->
+                <!--<Setter Property="BackgroundColor" Value="White" ></Setter>-->
                 <Setter Property="PlaceholderColor" Value="White" ></Setter>
-                <Setter Property="FontSize" Value="16" ></Setter>
+                <Setter Property="HeightRequest" Value="40" ></Setter>
                 
+                <Setter Property="FontSize" Value="16" ></Setter>
+
+                
+
 
 
 
@@ -108,7 +113,7 @@
                     <Grid.ColumnDefinitions>
 
                         <!--Coluna 1-->
-                        <ColumnDefinition Width="30"></ColumnDefinition>
+                        <ColumnDefinition Width="30"  ></ColumnDefinition>
                         <!--Coluna 2-->
                         <ColumnDefinition Width="200"></ColumnDefinition>
 
@@ -125,17 +130,17 @@
 
                     <!--Adiciona os objetos nas posições do grid-->
                     <Image Source="user.png" Grid.Column="0" Grid.Row="0" ></Image>
-                    <Entry Placeholder="Usuário" Grid.Column="1" Grid.Row="0"></Entry>
+                    <Entry Placeholder="Usuário"  Grid.Column="1" Grid.Row="0"></Entry>
 
                     <Image Source="password.png" Grid.Column="0" Grid.Row="1" ></Image>
                     <Entry Placeholder="******" IsPassword="True" Grid.Column="1" Grid.Row="1"></Entry>
 
-
+                    
 
                 </Grid>
 
 
-                <Button Text="Entrar" BackgroundColor="PaleVioletRed" ></Button>
+                <Button Text="Entrar" Clicked="Button_Clicked" BackgroundColor="PaleVioletRed" ></Button>
 
 
                 <Button Text="Esqueceu sua senha?" BackgroundColor="Transparent" ></Button>

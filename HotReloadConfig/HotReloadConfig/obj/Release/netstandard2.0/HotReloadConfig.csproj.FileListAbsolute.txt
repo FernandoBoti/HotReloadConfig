@@ -1,0 +1,14 @@
+C:\FERNANDO\Testes diversos\HotReloadConfig\HotReloadConfig\HotReloadConfig\HotReloadConfig\bin\Release\netstandard2.0\HotReloadConfig.deps.json
+C:\FERNANDO\Testes diversos\HotReloadConfig\HotReloadConfig\HotReloadConfig\HotReloadConfig\bin\Release\netstandard2.0\HotReloadConfig.dll
+C:\FERNANDO\Testes diversos\HotReloadConfig\HotReloadConfig\HotReloadConfig\HotReloadConfig\bin\Release\netstandard2.0\ref\HotReloadConfig.dll
+C:\FERNANDO\Testes diversos\HotReloadConfig\HotReloadConfig\HotReloadConfig\HotReloadConfig\bin\Release\netstandard2.0\HotReloadConfig.pdb
+C:\FERNANDO\Testes diversos\HotReloadConfig\HotReloadConfig\HotReloadConfig\HotReloadConfig\obj\Release\netstandard2.0\App.xaml.g.cs
+C:\FERNANDO\Testes diversos\HotReloadConfig\HotReloadConfig\HotReloadConfig\HotReloadConfig\obj\Release\netstandard2.0\MainPage.xaml.g.cs
+C:\FERNANDO\Testes diversos\HotReloadConfig\HotReloadConfig\HotReloadConfig\HotReloadConfig\obj\Release\netstandard2.0\View\Home.xaml.g.cs
+C:\FERNANDO\Testes diversos\HotReloadConfig\HotReloadConfig\HotReloadConfig\HotReloadConfig\obj\Release\netstandard2.0\View\telaLogin.xaml.g.cs
+C:\FERNANDO\Testes diversos\HotReloadConfig\HotReloadConfig\HotReloadConfig\HotReloadConfig\obj\Release\netstandard2.0\HotReloadConfig.AssemblyInfoInputs.cache
+C:\FERNANDO\Testes diversos\HotReloadConfig\HotReloadConfig\HotReloadConfig\HotReloadConfig\obj\Release\netstandard2.0\HotReloadConfig.AssemblyInfo.cs
+C:\FERNANDO\Testes diversos\HotReloadConfig\HotReloadConfig\HotReloadConfig\HotReloadConfig\obj\Release\netstandard2.0\XamlC.stamp
+C:\FERNANDO\Testes diversos\HotReloadConfig\HotReloadConfig\HotReloadConfig\HotReloadConfig\obj\Release\netstandard2.0\HotReloadConfig.dll
+C:\FERNANDO\Testes diversos\HotReloadConfig\HotReloadConfig\HotReloadConfig\HotReloadConfig\obj\Release\netstandard2.0\ref\HotReloadConfig.dll
+C:\FERNANDO\Testes diversos\HotReloadConfig\HotReloadConfig\HotReloadConfig\HotReloadConfig\obj\Release\netstandard2.0\HotReloadConfig.pdb

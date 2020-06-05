@@ -18,8 +18,10 @@ namespace HotReloadConfig
             HotReloader.Current.Run(this);
 
 #endif
-
+            
             MainPage = new telaLogin();
+            //MainPage = new NavigationPage(new telaLogin());
+
         }
 
         protected override void OnStart()
